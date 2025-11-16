@@ -1,152 +1,158 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Zihan Zhou",
+    "email": "andyjobs.zhou@gmail.com",
+    "phone": "(315) 878-1254",
+    "website": "https://andyasdd1.github.io",
+    "summary": "Master's Graduate actively seeking PhD opportunities in Machine Learning and Computer Vision. Research focuses on efficient training methods, 3D reconstruction, federated learning, and continual learning.",
     "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "Earth",
+      "address": "1082 Commonwealth Ave",
+      "postalCode": "02215",
+      "city": "Boston",
       "countryCode": "US",
-      "region": ""
+      "region": "MA"
     },
     "profiles": [
       {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "url": ""
       },
       {
         "network": "ORCID",
         "username": "",
-        "url": "https://orcid.org/yourorcidurl"
+        "url": ""
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "andyasdd1",
+        "url": "https://github.com/andyasdd1"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "Boston University",
+      "position": "Research Assistant",
+      "startDate": "2024-08-01",
+      "endDate": "Present",
+      "summary": "Advisor: Prof. Reza Rawassizadeh. Developing end-to-end camera to 3D human model pipeline using pose estimation, motion reconstruction, and Blender integration. Working on gradient-based early stopping for transformers (GradES paper).",
+      "highlights": [
+        "Co-authored GradES paper achieving 1.57x-7.22x training speedup",
+        "Built complete pipeline from 2D video to 3D character animation",
+        "Implemented LoRA-C fine-tuning for efficient pose estimation"
+      ]
+    },
+    {
+      "company": "Boston University",
+      "position": "Research Assistant",
+      "startDate": "2025-02-01",
+      "endDate": "Present",
+      "summary": "Advisor: Prof. Avi Mohan. Investigating federated learning convergence theory through dual-track research combining practical YOLOv8 object detection with controlled theoretical validation.",
+      "highlights": [
+        "Discovered BatchNorm's critical role in FL convergence (18.6% performance impact)",
+        "Built UltraFlwr framework integrating Flower and YOLOv8",
+        "Validated convergence theory across heterogeneity levels (λ from 12 to 2185)"
+      ]
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
+      "institution": "Boston University",
+      "area": "Computer Science",
+      "studyType": "Master of Science",
+      "startDate": "2023-09-01",
+      "endDate": "2025-05-26",
+      "gpa": "3.31",
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
+      "institution": "Hobart and William Smith Colleges",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Science",
+      "startDate": "2019-08-25",
+      "endDate": "2023-05-18",
+      "gpa": "3.15",
       "courses": []
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "Deep Learning",
+      "keywords": ["PyTorch", "TensorFlow", "Transformers", "Computer Vision", "Reinforcement Learning"]
+    },
+    {
+      "name": "Computer Vision",
+      "keywords": ["3D Gaussian Splatting", "Pose Estimation", "Object Detection", "YOLOv8", "MediaPipe"]
+    },
+    {
+      "name": "Distributed Systems",
+      "keywords": ["Federated Learning", "Flower Framework", "Multi-GPU Training"]
+    },
+    {
+      "name": "Research Tools",
+      "keywords": ["Weights & Biases", "Git", "Docker", "Jupyter", "Blender"]
+    }
+  ],
   "languages": [],
-  "interests": [],
+  "interests": [
+    {
+      "name": "Machine Learning Efficiency",
+      "keywords": ["Gradient-based Early Stopping", "Parameter-Efficient Fine-Tuning", "Model Optimization"]
+    },
+    {
+      "name": "3D Vision & World Models",
+      "keywords": ["Neural Representations", "Scene Understanding", "Temporal Prediction"]
+    },
+    {
+      "name": "Federated Learning",
+      "keywords": ["Convergence Theory", "Heterogeneous Data", "Distributed Learning"]
+    },
+    {
+      "name": "Continual Learning",
+      "keywords": ["Catastrophic Forgetting", "Sequential Learning", "Multi-Task Learning"]
+    }
+  ],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "GradES: Significantly Faster Training in Transformers with Gradient-Based Early Stopping",
+      "publisher": "arXiv preprint",
+      "releaseDate": "2025-09-01",
+      "website": "https://arxiv.org/abs/2509.01842",
+      "summary": "Novel gradient-based early stopping method operating at component level within transformers, achieving 1.57x-7.22x training speedup while improving generalization. Co-authors: Qifu Wen, Xi Zeng, Zihan Zhou, Shuaijun Liu, Mehdi Hosseinzadeh, Ningxin Su, Reza Rawassizadeh."
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
+  "presentations": [],
+  "teaching": [],
   "portfolio": [
     {
-      "name": "Portfolio item number 1",
+      "name": "3D Scene Understanding and Prediction",
       "category": "portfolio",
-      "date": "",
+      "date": "2025",
       "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "description": "Research on neural 3D scene representations and temporal dynamics modeling. Target: CVPR 2026"
+    },
+    {
+      "name": "Continual Learning in Sequential Tasks",
+      "category": "portfolio",
+      "date": "2025",
+      "url": "",
+      "description": "Investigating methods to mitigate catastrophic forgetting in sequential learning scenarios. Target: ICLR 2026"
+    },
+    {
+      "name": "Federated Learning: Theory and Practice",
+      "category": "portfolio",
+      "date": "2025",
+      "url": "",
+      "description": "Convergence analysis in federated learning with heterogeneous data distributions. Advisor: Prof. Avi Mohan"
+    },
+    {
+      "name": "Motion Capture and 3D Character Animation",
+      "category": "portfolio",
+      "date": "2024-2025",
+      "url": "",
+      "description": "End-to-end pipeline for human motion extraction and 3D character animation. Advisor: Prof. Reza Rawassizadeh"
     }
   ]
 }
