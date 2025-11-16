@@ -28,6 +28,11 @@ My work spans several cutting-edge areas in machine learning and computer vision
 
 Co-authored a paper on component-level early stopping that speeds up transformer training by 1.5x-7x while improving generalization. The method monitors gradient magnitudes at the individual weight matrix level, eliminating expensive validation passes.
 
+<div style="text-align: center; margin: 20px 0;">
+  <img src="/images/grades-convergence.png" alt="GradES Gradient Convergence Analysis" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  <p style="font-size: 0.9em; color: #666; margin-top: 10px;"><em>Gradient convergence behavior across transformer components in layer 7 for Qwen3-0.6B, showing distinct convergence rates between MLP and attention projections.</em></p>
+</div>
+
 **Key Results:**
 - 29-45% reduction in FLOPs compared to standard fine-tuning
 - Consistent accuracy improvements across language and vision-language models

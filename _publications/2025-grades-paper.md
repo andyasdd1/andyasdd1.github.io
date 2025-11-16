@@ -8,6 +8,8 @@ date: 2025-09-01
 venue: 'arXiv preprint'
 paperurl: 'https://arxiv.org/abs/2509.01842'
 citation: 'Qifu Wen, Xi Zeng, Zihan Zhou, Shuaijun Liu, Mehdi Hosseinzadeh, Ningxin Su, Reza Rawassizadeh. &quot;GradES: Significantly Faster Training in Transformers with Gradient-Based Early Stopping.&quot; <i>arXiv preprint arXiv:2509.01842</i>, 2025.'
+header:
+  teaser: grades-architecture.png
 ---
 
 ## Abstract
