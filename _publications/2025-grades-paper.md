@@ -18,12 +18,12 @@ The paper introduces GradES, a novel gradient-based early stopping method that o
 
 ## Architecture Overview
 
-![GradES Architecture](/images/grades-architecture.png)
+![GradES Architecture](/images/grades-convergence.png)
 *GradES architecture showing component-level gradient monitoring. Colors indicate gradient magnitude changes for each weight matrix. Components with low gradient changes (below threshold τ) are frozen while others continue training.*
 
 ## Convergence Behavior
 
-![Gradient Convergence](/images/grades-convergence.png)
+![Gradient Convergence](/images/grades-architecture.png)
 *Element-wise L₁ norms for gradient matrices of components in layer 7 for Qwen3-0.6B. MLP projections exhibit 2-3× higher gradient magnitudes than attention projections throughout training, with different convergence rates for each component.*
 
 **Key Observations:**
