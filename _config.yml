@@ -23,7 +23,7 @@ repository               : "andyasdd1/andyasdd1.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Zihan Zhou"
   pronouns         : "He/Him/His"
   bio              : "Master's Graduate | Applying for PhD in Machine Learning and Computer Vision"
