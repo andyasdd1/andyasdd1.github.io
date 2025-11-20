@@ -56,11 +56,9 @@ Exploring methods to mitigate catastrophic forgetting in sequential learning sce
 ## Education
 
 **Master of Science in Computer Science** | Boston University (2023 - 2025)
-- GPA: 3.31/4.0
 - Research focus: Machine Learning, Computer Vision, Federated Learning
 
 **Bachelor of Science in Computer Science** | Hobart and William Smith Colleges (2019 - 2023)
-- GPA: 3.15/4.0
 - Location: Geneva, NY
 
 ## Technical Skills
